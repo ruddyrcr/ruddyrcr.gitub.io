@@ -1,0 +1,238 @@
+html{
+    box-sizing: border-box;
+    font-size: 60.5%;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+body{
+    width: 100%;
+    background-color: rgb(14, 9, 14);
+}
+#portada > img{
+    margin: 0%;
+    width: 100%;
+    height: 55rem
+    }
+    
+    nav{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        margin-bottom: 35px;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        background-color: white;
+        height: 5rem;
+    }
+    nav >a{
+        height: 3rem;
+        width: 25rem; 
+        text-align: center;
+        margin-top: 1rem;
+        margin-right: 35px;
+        margin-left: 75px;
+        text-decoration: none;
+        color: purple;
+        font-size: 2.2rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding-bottom: 2px;
+        font-weight: bold;
+    }
+    a:hover{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        
+    }
+    nav>img{
+        margin-top: 0.5rem;
+        margin-left: 45px;
+        width: 10rem;
+        height: 7rem;
+        border-radius:70% ;
+    }
+    header{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #botones{
+        display: flex;
+        flex: 40px;
+        padding: 10px;
+        font-family:sans-serif;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border: 3px solid yellow;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    #botones img{
+        width: 23rem;
+        height: 25rem;
+        border-radius: 40%;
+    }
+    #botones h2 {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin: 10px 0px;
+        text-align: center;
+        font-size: 2.5rem;
+        
+    }
+    .c{
+        background-color: rgb(10, 37, 112);
+        padding: 6px 27px ;
+        border-radius: 10px;
+    }
+    .s{
+        background-color: rgb(10, 37, 112);
+        padding: 6px 7px;
+        border-radius: 10px;
+    }
+    .d{
+        background-color: rgb(10, 37, 112);
+        padding: 6px 15px;
+        border-radius: 10px;
+    }
+    #letras{
+        border: 2px solid yellow;
+        display: flex;
+        flex: 60%;
+        padding: 10px;
+        border-radius: 10px;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin:5px 5px 0px ;
+        margin-bottom: 1rem;
+        margin-right: 1.5rem;
+    }
+    #F{
+        display: flex;
+        justify-content: space-around; 
+        width: 100%;
+    }
+    #letras>h1{
+        color: white;
+    }
+    #letras>h3{
+        font-size: 28px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 0%;
+        color: red;
+    }
+    #F img{
+      padding: 10px;
+      width: 140px;
+      height: 160px;
+      border-radius: 40%;
+    }
+    footer> a >div > img{
+        width: 100px;
+        height: 120px;
+        margin: 10px;
+    }
+    footer  {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        height: 180px;
+        margin: 10px 0px;
+        margin-bottom: 0px;
+        
+    }
+    footer a {
+        width: 100%;
+        margin: 10px;
+    }
+    footer >a >div {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+        width: 100%;
+        background-color: rgba(1, 24, 37, 0.466);
+        margin: 10px;
+        height: 140px;
+        border-radius: 5px;
+        
+    }
+    footer a> div:hover {
+        width: 99%;
+        background-color: rgba(2, 35, 54, 0.596);
+        margin: 5px;
+        height: 150px;
+    }
+    footer a{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+    
+    @media screen and (max-width:450px) {
+        nav{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 10px;
+            padding: 0px;
+        }
+        footer{
+            flex-direction: column;  
+            margin: 100px ;
+        }
+        footer >div {
+            width: 90%;
+        }
+        .redes {
+           
+            flex-wrap: wrap;
+        }
+        #letras{
+            margin: 10px;
+            width: 90%;
+        }
+        #botones a {
+            padding: 10px 50px;
+        }
+       
+       
+       
+    }
+    @media screen and (max-width:500px){
+        #F{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column ;
+        }
+       
+    }
+    #UNO{
+        padding: 2rem;
+        background-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+        height: 15rem;
+    }
+    img:hover{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #uno{
+        width: 8rem;
+        
+    }
+    #dos{
+        width: 8rem;
+        
+    }
+    #cero{
+        width: 8rem;
+        
+    }    

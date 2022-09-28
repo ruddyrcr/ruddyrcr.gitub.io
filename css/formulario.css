@@ -1,0 +1,135 @@
+#padre{
+    margin-top: 1rem;
+    background-color:white;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    width: 22rem;
+    height: 0rem;
+    
+}
+#cab{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(98, 0, 255); 
+}
+#cab h3{
+    font-size: 1rem;
+    font-weight: bold;
+    color: rgb(55, 0, 255); 
+    padding: 0px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+a{
+    text-decoration: none;
+}
+.nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    color: purple;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(121,99,115);
+    background: linear-gradient(0deg, rgb(220, 185, 211) 27%, rgba(207,127,188,1) 66%, rgba(249,127,225,0.9780287114845938) 100%);
+    background-position: 0 0,10px 10px;
+    min-height: 100vh;
+}
+.uno{
+    background: rgb(121,99,115);
+    background: linear-gradient(0deg, rgb(162, 159, 161) 27%, rgba(134,207,127,1) 66%, rgba(227,181,218,0.9780287114845938) 100%);
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    border-radius: 10px;
+    box-shadow:0 5px 10px -5px rgb(0 0 0/30%) ;
+    text-align: center;
+}
+.titulo{
+    font-size: 2rem;
+    margin-bottom: .5em;
+}
+.parrafo{
+    font-weight: 400;
+    color: #000;
+}
+.conteinor{
+margin-top: 3em;
+display: grid;
+gap: 2.5em;
+}
+.grupo{
+    position: relative;
+    color:rgb(137, 16, 16);
+}
+.input{
+    width: 100%;
+    background: none;
+    color: #1a043d;
+    font-size: 1rem;
+    padding: .6em .3em;
+    outline: none;
+    border-bottom:1px solid var(--color) ;
+}
+.label1{
+    color: blue;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 5px;
+    transform:translateY(10px);
+    transition: transform .5s,color .3s;
+}
+.input :focus + .label1, input:not(:placeholder-shown)+ .label1{
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: #0e0e0f;
+
+}
+button{
+    margin: 10px;
+    padding: 10px;
+   border-radius: 5px;
+   border: 1px solid black;
+   background-color: rgb(10, 74, 236);
+   color: white;
+}
+button:hover{
+    background-color: #7d8cb8;
+}
+.line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color:  #3866f2;
+    transform: scale(0);
+    transform: left bottom;
+    transition: transform .4s;
+}
